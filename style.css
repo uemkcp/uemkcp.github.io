@@ -10,7 +10,6 @@
     opacity: 1;
 }
 .person:hover {
-    opacity: 0.3;
     border-color: #f1f1f1;
 }
 .jumbotron {
@@ -80,8 +79,9 @@ body {
     color: #818181;
 }
 
-.jumbotron {
+.jumbotron{
     font-family: Montserrat, sans-serif;
+    font-weight: bold;
 }
 
 .navbar {
@@ -164,6 +164,10 @@ header .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
     color: #f4511e;
+}
+p {
+    font-family: bookman,helvetica,sans-serif fonts,serif;
+    font-weight: 300;
 }
 
 .slideanim {visibility:hidden;}
